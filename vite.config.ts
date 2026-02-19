@@ -9,7 +9,8 @@ export default defineConfig({
     // Tailwind is not being actively used – do not remove them
     react(),
     tailwindcss(),
-  ],
+  ], 
+  base: '/RedesingGoiasConstrucoes/',
   resolve: {
     alias: {
       // Alias @ to the src directory
